@@ -1,0 +1,4 @@
+// p = mat + 1; VALIDA, Um ponteiro recebendo um endereço de memória do mesmo tipo
+// p = mat++;  INVALIDA, Não é permitido o incremento de endereços de vetores 
+// p = ++mat;    INVALIDA, Não é permitido o incremento de endereços de vetores 
+// x = (*mat)++; VALIDA, Uma  variável  inteira recebendo  o  valor  que  está  na primeira  posição  do  vetor  “mat”,  que  depois  é incrementado
