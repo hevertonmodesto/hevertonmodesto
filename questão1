@@ -1,1 +1,4 @@
-
+//p == &i; verdadeiro, O ponteiro "p" é igual o endereço de "i", o que foi feito na linha 3
+//*p - *q; -2, fazendo *p-*q, apontaremos para i-j = 3-5 = -2
+//**&p; mostrará o valor que está no segundo nível de p, como p possui apenas um nível, ele mostrará este valor que será igual a 3.
+//3 - *p/(*q) + 7; Ignorará as equações com p e q, depois somará 3+7 e imprimirá o resultado que será 10
