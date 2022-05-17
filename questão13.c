@@ -4,12 +4,12 @@
 int main(){
 	int n, i, j;
 	float aux,*x;
-	
-	printf("Digite a quatidade de numeros (n): \n");
+	printf("\t\t\tORDEM CRESCENTE\t\t\t\n\n");
+	printf("Digite a quatidade de numeros para ordenar de forma crescente : \n");
 	scanf("%i", &n);
 	x = malloc(n * sizeof(float));	
 	for(i=0;i<n; i++){
-		printf("Digite um numero: ");
+		printf("Digite um numero : ");
 		scanf("%f", &x[i]);		
 	}	
 	for(j=0;j<n; j++){
@@ -21,7 +21,8 @@ int main(){
 				x[i+1] = aux;
 			}	
 		}
-	}	
+	}
+	printf("\n\nCRESCENTE : \n");
 	for(j=0;j<n; j++){
 		printf("%f \n", x[j]);
 	}
